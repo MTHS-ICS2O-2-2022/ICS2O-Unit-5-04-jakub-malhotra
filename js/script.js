@@ -12,7 +12,7 @@ function myButtonClicked() {
   const day = document.getElementById("day").value
   document.getElementById("day").innerHTML = day
 
-  if (day == "tuesday" || day == "thursday" || (age > "12" && age < "21")) {
+  if (day == "tuesday" || day == "thursday" || (userAge > "12" && userAge < "21")) {
     document.getElementById("price").innerHTML =
       "You are eligible for discounted pricing."
   } else {
